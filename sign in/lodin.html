@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/styel.css">
+
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6  d-flex  justify-content-center align-items-center  vh-100">
+                <div class="fom">
+                    <h2 id="title">sign_in</h2>
+
+
+                    <label for="Email">
+                        <i class="fa-solid fa-envelope fa-xl"></i>
+                        email:</label>
+                        <div id="EmailValid" class="alert alert-danger d-none w-75"role="alert">Email in valid</div>
+                    <input type="email" id="Email" placeholder="email" name="username" required>
+
+
+                    <label for="password">
+                        <i class="fa-solid fa-lock fa-xl"></i>
+                        Password:</label>
+                        <div id="passValid" class="alert alert-danger d-none w-75"role="alert">password in valid</div>
+                    <input type="password"placeholder="password" id="password" name="password" required>
+
+                    <div id="sign_in" class="btn btn-primary w-75">login</div>
+                        <p>lost password : !<a href="../index.html">sign up</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="javascreipt/bootstrap.bundle.min.js"></script>
+    <script src="javascreipt/java.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+body{
+  position: relative;
+}
+.navbar-nav .nav-link.active {
+  color: #fff;
+}
+.navbar-cont{
+  background-color: rgba(0, 0, 0, 0.507);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  color: #fff;
+  
+}
+.navbar-scroll{
+  background-color: rgba(0, 0, 0, 0.932);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  transition: all 1s;
+  color: #fff;
+  a{
+    color: #fff;
+  }
+  .nav-link.active{
+    color: #fff;
+  }
+}
+.container_row{
+  margin-top: 100px;
+}
+.img{
+  height: 250px;
+}
+.description{
+  height: 200px;
+  overflow: hidden;
+}
+.card{
+  height: 650px;
+  overflow: hidden;
+}
+.image{
+  width: 40%;
+  z-index: 4;
+}
+.icon{
+  top: 15px;
+  right: 2px;
+  color: brown;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width:992px){
+  .image{
+    width: 90%;
+  }
+}
+
+.testImage{
+  cursor: pointer;
+  
+  transition: all 1s;
+}
+.testImage:hover{
+  transform: scale(1.1);
+}
+
+.icons{
+  position: fixed;
+  top: 550px;
+  right: -30px;
+  color: brown;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.icon_scroll{
+  position: fixed;
+  top: 550px;
+  right: 5px;
+  color: brown;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 1s;
+}

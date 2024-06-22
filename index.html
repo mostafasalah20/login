@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index/css/all.css">
+    <link rel="stylesheet" href="index/css/styel.css">
+
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 d-flex  justify-content-center align-items-center  vh-100">
+                <div class="fom">
+                    <h2 id="title">sign up</h2>
+
+                    <div  id="user_name" class="user_name w-100  flex-column text-center align-items-center">
+                        <label for="username">
+                            <i class="fa-solid fa-user fa-xl"></i>
+                            Username:</label>
+                            <div id="NameValid" class="alert alert-danger d-none w-75"role="alert">name in valid</div>
+                        <input oninput="validName()" type="text" id="username"placeholder="username" name="username" required>
+                    </div>
+
+
+                    <label for="Email">
+                        <i class="fa-solid fa-envelope fa-xl"></i>
+                        email:</label>
+                        <div id="EmailValid" class="alert alert-danger d-none w-75"role="alert">Email in valid</div>
+                    <input oninput="validEmail()" type="email" id="Email" placeholder="email" name="Email" required>
+
+
+                    <label for="password">
+                        <i class="fa-solid fa-lock fa-xl"></i>
+                        Password:</label>
+                        <div id="passValid" class="alert alert-danger d-none w-75"role="alert">password in valid</div>
+                    <input oninput="validPass()" type="password"placeholder="password" id="password" name="password" required>
+
+                   
+
+                    <div class="btn btn-primary w-25"id="sign_up">sign up</div>
+                        <p>lost password : !<a href="sign in/lodin.html">sign in </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index/javascreipt/bootstrap.bundle.min.js"></script>
+    <script src="index/javascreipt/java.js"></script>
+</body>
+
+</html>
